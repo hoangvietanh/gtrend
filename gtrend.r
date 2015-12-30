@@ -3,8 +3,8 @@ library(gtrendsR)
 library(reshape2)
 library(ggplot2)
 
-usr <- "hoangvietanh"
-psw <- "greenfield@36"
+usr <- "" #put Google username here
+psw <- "" #put Google password here
 gconnect(usr, psw)
 trend <- gtrends(c("nguyen tan dung", "truong tan sang","nguyen sinh hung","nguyen phu trong","ngoc trinh"), res="week")
 
